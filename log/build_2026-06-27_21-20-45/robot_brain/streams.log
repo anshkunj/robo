@@ -1,0 +1,40 @@
+[11.625s] Invoking command in '/root/projects/robo/build/robot_brain': PS1=(.venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\u@\h:\w\$ PYTHONPATH=/root/projects/robo/build/robot_brain/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/projects/robo/install/robot_brain/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /root/projects/robo/build/robot_brain/build
+[15.235s] running develop
+[17.904s] Removing /root/projects/robo/install/robot_brain/lib/python3.14/site-packages/robot-brain.egg-link (link to .)
+[18.064s] Invoked command in '/root/projects/robo/build/robot_brain' returned '0': PS1=(.venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\u@\h:\w\$ PYTHONPATH=/root/projects/robo/build/robot_brain/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/projects/robo/install/robot_brain/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /root/projects/robo/build/robot_brain/build
+[18.105s] Invoking command in '/root/projects/robo/src/robot_brain': PS1=(.venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\u@\h:\w\$ PYTHONPATH=/root/projects/robo/build/robot_brain/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/projects/robo/install/robot_brain/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_brain build --build-base /root/projects/robo/build/robot_brain/build install --record /root/projects/robo/build/robot_brain/install.log --install-scripts $base/lib/robot_brain --single-version-externally-managed install_data --force
+[20.839s] running egg_info
+[21.003s] writing ../../build/robot_brain/robot_brain.egg-info/PKG-INFO
+[21.008s] writing dependency_links to ../../build/robot_brain/robot_brain.egg-info/dependency_links.txt
+[21.022s] writing entry points to ../../build/robot_brain/robot_brain.egg-info/entry_points.txt
+[21.032s] writing requirements to ../../build/robot_brain/robot_brain.egg-info/requires.txt
+[21.036s] writing top-level names to ../../build/robot_brain/robot_brain.egg-info/top_level.txt
+[21.405s] reading manifest file '../../build/robot_brain/robot_brain.egg-info/SOURCES.txt'
+[21.437s] writing manifest file '../../build/robot_brain/robot_brain.egg-info/SOURCES.txt'
+[21.437s] running build
+[21.441s] running build_py
+[21.441s] creating /root/projects/robo/build/robot_brain/build/lib/robot_brain
+[21.443s] copying robot_brain/__init__.py -> /root/projects/robo/build/robot_brain/build/lib/robot_brain
+[21.446s] copying robot_brain/brain.py -> /root/projects/robo/build/robot_brain/build/lib/robot_brain
+[21.450s] copying robot_brain/listener.py -> /root/projects/robo/build/robot_brain/build/lib/robot_brain
+[21.464s] copying robot_brain/py.typed -> /root/projects/robo/build/robot_brain/build/lib/robot_brain
+[21.467s] running install
+[21.478s] running install_lib
+[21.646s] creating /root/projects/robo/install/robot_brain/lib/python3.14/site-packages/robot_brain
+[21.649s] copying /root/projects/robo/build/robot_brain/build/lib/robot_brain/__init__.py -> /root/projects/robo/install/robot_brain/lib/python3.14/site-packages/robot_brain
+[21.651s] copying /root/projects/robo/build/robot_brain/build/lib/robot_brain/brain.py -> /root/projects/robo/install/robot_brain/lib/python3.14/site-packages/robot_brain
+[21.654s] copying /root/projects/robo/build/robot_brain/build/lib/robot_brain/listener.py -> /root/projects/robo/install/robot_brain/lib/python3.14/site-packages/robot_brain
+[21.659s] copying /root/projects/robo/build/robot_brain/build/lib/robot_brain/py.typed -> /root/projects/robo/install/robot_brain/lib/python3.14/site-packages/robot_brain
+[21.672s] byte-compiling /root/projects/robo/install/robot_brain/lib/python3.14/site-packages/robot_brain/__init__.py to __init__.cpython-314.pyc
+[21.678s] byte-compiling /root/projects/robo/install/robot_brain/lib/python3.14/site-packages/robot_brain/brain.py to brain.cpython-314.pyc
+[21.688s] byte-compiling /root/projects/robo/install/robot_brain/lib/python3.14/site-packages/robot_brain/listener.py to listener.cpython-314.pyc
+[21.692s] running install_data
+[21.696s] copying resource/robot_brain -> /root/projects/robo/install/robot_brain/share/ament_index/resource_index/packages
+[21.700s] copying package.xml -> /root/projects/robo/install/robot_brain/share/robot_brain
+[21.705s] running install_egg_info
+[21.876s] Copying ../../build/robot_brain/robot_brain.egg-info to /root/projects/robo/install/robot_brain/lib/python3.14/site-packages/robot_brain-0.0.0-py3.14.egg-info
+[21.917s] running install_scripts
+[23.983s] Installing brain script to /root/projects/robo/install/robot_brain/lib/robot_brain
+[23.985s] Installing ear script to /root/projects/robo/install/robot_brain/lib/robot_brain
+[24.002s] writing list of installed files to '/root/projects/robo/build/robot_brain/install.log'
+[24.149s] Invoked command in '/root/projects/robo/src/robot_brain' returned '0': PS1=(.venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\u@\h:\w\$ PYTHONPATH=/root/projects/robo/build/robot_brain/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/projects/robo/install/robot_brain/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_brain build --build-base /root/projects/robo/build/robot_brain/build install --record /root/projects/robo/build/robot_brain/install.log --install-scripts $base/lib/robot_brain --single-version-externally-managed install_data --force

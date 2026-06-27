@@ -1,0 +1,34 @@
+[2.328s] Invoking command in '/root/projects/robo/build/robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/projects/robo/src/install/robot_brain:/root/projects/robo/install/robot_brain:/opt/ros/lyrical PS1=(.venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\u@\h:\w\$ /usr/bin/cmake /root/projects/robo/src/robot_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/projects/robo/install/robot_interfaces
+[4.422s] -- The C compiler identification is GNU 15.2.0
+[6.281s] -- The CXX compiler identification is GNU 15.2.0
+[6.651s] -- Detecting C compiler ABI info
+[8.767s] -- Detecting C compiler ABI info - done
+[8.869s] -- Check for working C compiler: /usr/bin/cc - skipped
+[8.879s] -- Detecting C compile features
+[8.890s] -- Detecting C compile features - done
+[9.261s] -- Detecting CXX compiler ABI info
+[10.932s] -- Detecting CXX compiler ABI info - done
+[11.049s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[11.058s] -- Detecting CXX compile features
+[11.074s] -- Detecting CXX compile features - done
+[11.802s] -- Found ament_cmake: 2.8.7 (/opt/ros/lyrical/share/ament_cmake/cmake)
+[14.949s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[17.810s] -- Found ament_lint_auto: 0.20.6 (/opt/ros/lyrical/share/ament_lint_auto/cmake)
+[18.291s] Traceback (most recent call last):
+[18.292s]   File "/opt/ros/lyrical/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 22, in <module>
+[18.293s]     from catkin_pkg.package import parse_package_string
+[18.294s] ModuleNotFoundError: No module named 'catkin_pkg'
+[18.323s] [31mCMake Error at /opt/ros/lyrical/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[18.325s]   execute_process(/root/projects/robo/.venv/bin/python3
+[18.326s]   /opt/ros/lyrical/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[18.329s]   /root/projects/robo/src/robot_interfaces/package.xml
+[18.330s]   /root/projects/robo/build/robot_interfaces/ament_cmake_core/package.cmake)
+[18.331s]   returned error code 1
+[18.332s] Call Stack (most recent call first):
+[18.334s]   /opt/ros/lyrical/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[18.335s]   /opt/ros/lyrical/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[18.336s]   CMakeLists.txt:23 (ament_lint_auto_find_test_dependencies)
+[18.339s] 
+[18.340s] [0m
+[18.340s] -- Configuring incomplete, errors occurred!
+[18.391s] Invoked command in '/root/projects/robo/build/robot_interfaces' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/projects/robo/src/install/robot_brain:/root/projects/robo/install/robot_brain:/opt/ros/lyrical PS1=(.venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\u@\h:\w\$ /usr/bin/cmake /root/projects/robo/src/robot_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/projects/robo/install/robot_interfaces

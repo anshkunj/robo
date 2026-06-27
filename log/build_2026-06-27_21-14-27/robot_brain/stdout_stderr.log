@@ -1,0 +1,21 @@
+running develop
+running egg_info
+creating robot_brain.egg-info
+writing robot_brain.egg-info/PKG-INFO
+writing dependency_links to robot_brain.egg-info/dependency_links.txt
+writing entry points to robot_brain.egg-info/entry_points.txt
+writing requirements to robot_brain.egg-info/requires.txt
+writing top-level names to robot_brain.egg-info/top_level.txt
+writing manifest file 'robot_brain.egg-info/SOURCES.txt'
+reading manifest file 'robot_brain.egg-info/SOURCES.txt'
+writing manifest file 'robot_brain.egg-info/SOURCES.txt'
+running build_ext
+Creating /root/projects/robo/install/robot_brain/lib/python3.14/site-packages/robot-brain.egg-link (link to .)
+Installing brain script to /root/projects/robo/install/robot_brain/lib/robot_brain
+Installing ear script to /root/projects/robo/install/robot_brain/lib/robot_brain
+
+Installed /root/projects/robo/build/robot_brain
+running symlink_data
+creating /root/projects/robo/install/robot_brain/share/ament_index/resource_index/packages
+symbolically linking /root/projects/robo/build/robot_brain/resource/robot_brain -> /root/projects/robo/install/robot_brain/share/ament_index/resource_index/packages
+symbolically linking /root/projects/robo/build/robot_brain/package.xml -> /root/projects/robo/install/robot_brain/share/robot_brain

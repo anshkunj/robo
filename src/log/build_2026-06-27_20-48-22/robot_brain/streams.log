@@ -1,0 +1,39 @@
+[14.576s] Invoking command in '/root/projects/robo/src/robot_brain': PYTHONPATH=/root/projects/robo/src/build/robot_brain/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/projects/robo/src/install/robot_brain/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/robot_brain build --build-base /root/projects/robo/src/build/robot_brain/build install --record /root/projects/robo/src/build/robot_brain/install.log --install-scripts $base/lib/robot_brain --single-version-externally-managed install_data
+[18.850s] running egg_info
+[19.057s] creating ../build/robot_brain/robot_brain.egg-info
+[19.059s] writing ../build/robot_brain/robot_brain.egg-info/PKG-INFO
+[19.067s] writing dependency_links to ../build/robot_brain/robot_brain.egg-info/dependency_links.txt
+[19.073s] writing entry points to ../build/robot_brain/robot_brain.egg-info/entry_points.txt
+[19.074s] writing requirements to ../build/robot_brain/robot_brain.egg-info/requires.txt
+[19.075s] writing top-level names to ../build/robot_brain/robot_brain.egg-info/top_level.txt
+[19.076s] writing manifest file '../build/robot_brain/robot_brain.egg-info/SOURCES.txt'
+[19.546s] reading manifest file '../build/robot_brain/robot_brain.egg-info/SOURCES.txt'
+[19.564s] writing manifest file '../build/robot_brain/robot_brain.egg-info/SOURCES.txt'
+[19.568s] running build
+[19.569s] running build_py
+[19.571s] creating /root/projects/robo/src/build/robot_brain/build/lib/robot_brain
+[19.572s] copying robot_brain/__init__.py -> /root/projects/robo/src/build/robot_brain/build/lib/robot_brain
+[19.579s] copying robot_brain/brain.py -> /root/projects/robo/src/build/robot_brain/build/lib/robot_brain
+[19.581s] copying robot_brain/listener.py -> /root/projects/robo/src/build/robot_brain/build/lib/robot_brain
+[19.592s] copying robot_brain/py.typed -> /root/projects/robo/src/build/robot_brain/build/lib/robot_brain
+[19.597s] running install
+[19.615s] running install_lib
+[19.840s] creating /root/projects/robo/src/install/robot_brain/lib/python3.14/site-packages/robot_brain
+[19.843s] copying /root/projects/robo/src/build/robot_brain/build/lib/robot_brain/__init__.py -> /root/projects/robo/src/install/robot_brain/lib/python3.14/site-packages/robot_brain
+[19.847s] copying /root/projects/robo/src/build/robot_brain/build/lib/robot_brain/brain.py -> /root/projects/robo/src/install/robot_brain/lib/python3.14/site-packages/robot_brain
+[19.850s] copying /root/projects/robo/src/build/robot_brain/build/lib/robot_brain/listener.py -> /root/projects/robo/src/install/robot_brain/lib/python3.14/site-packages/robot_brain
+[19.856s] copying /root/projects/robo/src/build/robot_brain/build/lib/robot_brain/py.typed -> /root/projects/robo/src/install/robot_brain/lib/python3.14/site-packages/robot_brain
+[19.867s] byte-compiling /root/projects/robo/src/install/robot_brain/lib/python3.14/site-packages/robot_brain/__init__.py to __init__.cpython-314.pyc
+[19.871s] byte-compiling /root/projects/robo/src/install/robot_brain/lib/python3.14/site-packages/robot_brain/brain.py to brain.cpython-314.pyc
+[19.877s] byte-compiling /root/projects/robo/src/install/robot_brain/lib/python3.14/site-packages/robot_brain/listener.py to listener.cpython-314.pyc
+[19.881s] running install_data
+[19.885s] creating /root/projects/robo/src/install/robot_brain/share/ament_index/resource_index/packages
+[19.887s] copying resource/robot_brain -> /root/projects/robo/src/install/robot_brain/share/ament_index/resource_index/packages
+[19.892s] copying package.xml -> /root/projects/robo/src/install/robot_brain/share/robot_brain
+[19.896s] running install_egg_info
+[20.198s] Copying ../build/robot_brain/robot_brain.egg-info to /root/projects/robo/src/install/robot_brain/lib/python3.14/site-packages/robot_brain-0.0.0-py3.14.egg-info
+[20.284s] running install_scripts
+[23.587s] Installing brain script to /root/projects/robo/src/install/robot_brain/lib/robot_brain
+[23.606s] Installing ear script to /root/projects/robo/src/install/robot_brain/lib/robot_brain
+[23.610s] writing list of installed files to '/root/projects/robo/src/build/robot_brain/install.log'
+[23.773s] Invoked command in '/root/projects/robo/src/robot_brain' returned '0': PYTHONPATH=/root/projects/robo/src/build/robot_brain/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/projects/robo/src/install/robot_brain/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/robot_brain build --build-base /root/projects/robo/src/build/robot_brain/build install --record /root/projects/robo/src/build/robot_brain/install.log --install-scripts $base/lib/robot_brain --single-version-externally-managed install_data

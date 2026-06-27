@@ -1,0 +1,5 @@
+source;share/robot_interfaces/local_setup.bash
+source;share/robot_interfaces/local_setup.dsv
+source;share/robot_interfaces/local_setup.fish
+source;share/robot_interfaces/local_setup.sh
+source;share/robot_interfaces/local_setup.zsh

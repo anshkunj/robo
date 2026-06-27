@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/root/projects/robo/build/robot_interfaces/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

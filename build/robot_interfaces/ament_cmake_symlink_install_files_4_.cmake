@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_files("/root/projects/robo/src/robot_interfaces" FILES "/opt/ros/lyrical/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/robot_interfaces/environment")

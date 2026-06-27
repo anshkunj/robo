@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_files("/root/projects/robo/src/robot_interfaces" FILES "/root/projects/robo/build/robot_interfaces/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/robot_interfaces" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")

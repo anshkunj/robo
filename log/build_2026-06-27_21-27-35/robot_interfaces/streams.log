@@ -1,0 +1,22 @@
+[2.304s] Invoking command in '/root/projects/robo/build/robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/projects/robo/install/robot_brain:/opt/ros/lyrical /usr/bin/cmake --build /root/projects/robo/build/robot_interfaces -- -j8 -l8
+[4.107s] Invoked command in '/root/projects/robo/build/robot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/projects/robo/install/robot_brain:/opt/ros/lyrical /usr/bin/cmake --build /root/projects/robo/build/robot_interfaces -- -j8 -l8
+[4.321s] Invoking command in '/root/projects/robo/build/robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/projects/robo/install/robot_brain:/opt/ros/lyrical /usr/bin/cmake --install /root/projects/robo/build/robot_interfaces
+[4.482s] -- Install configuration: ""
+[4.491s] -- Execute custom install script
+[4.514s] -- Up-to-date symlink: /root/projects/robo/install/robot_interfaces/share/ament_index/resource_index/package_run_dependencies/robot_interfaces
+[4.548s] -- Up-to-date symlink: /root/projects/robo/install/robot_interfaces/share/ament_index/resource_index/parent_prefix_path/robot_interfaces
+[4.581s] -- Up-to-date symlink: /root/projects/robo/install/robot_interfaces/share/robot_interfaces/environment/ament_prefix_path.sh
+[4.606s] -- Up-to-date symlink: /root/projects/robo/install/robot_interfaces/share/robot_interfaces/environment/ament_prefix_path.dsv
+[4.631s] -- Up-to-date symlink: /root/projects/robo/install/robot_interfaces/share/robot_interfaces/environment/path.sh
+[4.657s] -- Up-to-date symlink: /root/projects/robo/install/robot_interfaces/share/robot_interfaces/environment/path.dsv
+[4.686s] -- Up-to-date symlink: /root/projects/robo/install/robot_interfaces/share/robot_interfaces/local_setup.bash
+[4.703s] -- Up-to-date symlink: /root/projects/robo/install/robot_interfaces/share/robot_interfaces/local_setup.fish
+[4.719s] -- Up-to-date symlink: /root/projects/robo/install/robot_interfaces/share/robot_interfaces/local_setup.sh
+[4.737s] -- Up-to-date symlink: /root/projects/robo/install/robot_interfaces/share/robot_interfaces/local_setup.zsh
+[4.757s] -- Up-to-date symlink: /root/projects/robo/install/robot_interfaces/share/robot_interfaces/local_setup.dsv
+[4.770s] -- Symlinking: /root/projects/robo/install/robot_interfaces/share/robot_interfaces/package.dsv
+[4.979s] -- Up-to-date symlink: /root/projects/robo/install/robot_interfaces/share/ament_index/resource_index/packages/robot_interfaces
+[5.001s] -- Up-to-date symlink: /root/projects/robo/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfacesConfig.cmake
+[5.017s] -- Up-to-date symlink: /root/projects/robo/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfacesConfig-version.cmake
+[5.040s] -- Up-to-date symlink: /root/projects/robo/install/robot_interfaces/share/robot_interfaces/package.xml
+[5.077s] Invoked command in '/root/projects/robo/build/robot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/projects/robo/install/robot_brain:/opt/ros/lyrical /usr/bin/cmake --install /root/projects/robo/build/robot_interfaces

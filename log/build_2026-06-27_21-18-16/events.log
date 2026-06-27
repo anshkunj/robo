@@ -1,0 +1,303 @@
+[0.000000] (-) TimerEvent: {}
+[0.001645] (robot_brain) JobQueued: {'identifier': 'robot_brain', 'dependencies': OrderedDict()}
+[0.002397] (robot_interfaces) JobQueued: {'identifier': 'robot_interfaces', 'dependencies': OrderedDict()}
+[0.005344] (robot_brain) JobStarted: {'identifier': 'robot_brain'}
+[0.098269] (-) TimerEvent: {}
+[0.201598] (-) TimerEvent: {}
+[0.219823] (robot_interfaces) JobStarted: {'identifier': 'robot_interfaces'}
+[0.301923] (-) TimerEvent: {}
+[0.406551] (-) TimerEvent: {}
+[0.510359] (-) TimerEvent: {}
+[0.612627] (-) TimerEvent: {}
+[0.713984] (-) TimerEvent: {}
+[0.815680] (-) TimerEvent: {}
+[0.917023] (-) TimerEvent: {}
+[1.019181] (-) TimerEvent: {}
+[1.121458] (-) TimerEvent: {}
+[1.223130] (-) TimerEvent: {}
+[1.325454] (-) TimerEvent: {}
+[1.427335] (-) TimerEvent: {}
+[1.528768] (-) TimerEvent: {}
+[1.630506] (-) TimerEvent: {}
+[1.732807] (-) TimerEvent: {}
+[1.834558] (-) TimerEvent: {}
+[1.935870] (-) TimerEvent: {}
+[2.037773] (-) TimerEvent: {}
+[2.139670] (-) TimerEvent: {}
+[2.241947] (-) TimerEvent: {}
+[2.344410] (-) TimerEvent: {}
+[2.446411] (-) TimerEvent: {}
+[2.550244] (-) TimerEvent: {}
+[2.654454] (-) TimerEvent: {}
+[2.691174] (robot_interfaces) JobProgress: {'identifier': 'robot_interfaces', 'progress': 'cmake'}
+[2.703102] (robot_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/root/projects/robo/src/robot_interfaces', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/root/projects/robo/install/robot_interfaces'], 'cwd': '/root/projects/robo/build/robot_interfaces', 'env': OrderedDict({'DEX2OATBOOTCLASSPATH': '/apex/com.android.art/javalib/core-oj.jar:/apex/com.android.art/javalib/core-libart.jar:/apex/com.android.art/javalib/okhttp.jar:/apex/com.android.art/javalib/bouncycastle.jar:/apex/com.android.art/javalib/apache-xml.jar:/system/framework/framework.jar:/system/framework/framework-graphics.jar:/system/framework/framework-location.jar:/system/framework/ext.jar:/system/framework/telephony-common.jar:/system/framework/voip-common.jar:/system/framework/ims-common.jar:/system/framework/framework-ondeviceintelligence-platform.jar:/system/framework/framework-nfc.jar:/system/framework/oplus-framework.jar:/system/framework/com.android.fmradio.jar:/system/framework/subsystem-framework.jar:/system_ext/framework/mediatek-common.jar:/system_ext/framework/mediatek-framework.jar:/system_ext/framework/mediatek-ims-common.jar:/system_ext/framework/mediatek-ims-base.jar:/apex/com.android.i18n/javalib/core-icu4j.jar', 'USER': 'root', 'EXTERNAL_STORAGE': '/sdcard', 'PROOT_L2S_DIR': '/data/data/com.termux/files/usr/var/lib/proot-distro/containers/ubuntu/rootfs/.l2s', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/lyrical/lib/aarch64-linux-gnu:/opt/ros/lyrical/lib', 'HOME': '/root', 'OLDPWD': '/root/projects/robo/src', 'ROS_PYTHON_VERSION': '3', 'PS1': '(.venv) \\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\u@\\h:\\w\\$', 'LC_CTYPE': 'C.UTF-8', 'BOOTCLASSPATH': '/apex/com.android.art/javalib/core-oj.jar:/apex/com.android.art/javalib/core-libart.jar:/apex/com.android.art/javalib/okhttp.jar:/apex/com.android.art/javalib/bouncycastle.jar:/apex/com.android.art/javalib/apache-xml.jar:/system/framework/framework.jar:/system/framework/framework-graphics.jar:/system/framework/framework-location.jar:/system/framework/ext.jar:/system/framework/telephony-common.jar:/system/framework/voip-common.jar:/system/framework/ims-common.jar:/system/framework/framework-ondeviceintelligence-platform.jar:/system/framework/framework-nfc.jar:/system/framework/oplus-framework.jar:/system/framework/com.android.fmradio.jar:/system/framework/subsystem-framework.jar:/system_ext/framework/mediatek-common.jar:/system_ext/framework/mediatek-framework.jar:/system_ext/framework/mediatek-ims-common.jar:/system_ext/framework/mediatek-ims-base.jar:/apex/com.android.i18n/javalib/core-icu4j.jar:/apex/com.android.adservices/javalib/framework-adservices.jar:/apex/com.android.adservices/javalib/framework-sdksandbox.jar:/apex/com.android.appsearch/javalib/framework-appsearch.jar:/apex/com.android.configinfrastructure/javalib/framework-configinfrastructure.jar:/apex/com.android.conscrypt/javalib/conscrypt.jar:/apex/com.android.crashrecovery/javalib/framework-crashrecovery.jar:/apex/com.android.devicelock/javalib/framework-devicelock.jar:/apex/com.android.healthfitness/javalib/framework-healthfitness.jar:/apex/com.android.ipsec/javalib/android.net.ipsec.ike.jar:/apex/com.android.media/javalib/updatable-media.jar:/apex/com.android.mediaprovider/javalib/framework-mediaprovider.jar:/apex/com.android.mediaprovider/javalib/framework-pdf.jar:/apex/com.android.mediaprovider/javalib/framework-pdf-v.jar:/apex/com.android.mediaprovider/javalib/framework-photopicker.jar:/apex/com.android.ondevicepersonalization/javalib/framework-ondevicepersonalization.jar:/apex/com.android.os.statsd/javalib/framework-statsd.jar:/apex/com.android.permission/javalib/framework-permission.jar:/apex/com.android.permission/javalib/framework-permission-s.jar:/apex/com.android.profiling/javalib/framework-profiling.jar:/apex/com.android.scheduling/javalib/framework-scheduling.jar:/apex/com.android.sdkext/javalib/framework-sdkextensions.jar:/apex/com.android.tethering/javalib/framework-connectivity.jar:/apex/com.android.tethering/javalib/framework-connectivity-b.jar:/apex/com.android.tethering/javalib/framework-connectivity-t.jar:/apex/com.android.tethering/javalib/framework-tethering.jar:/apex/com.android.uwb/javalib/framework-ranging.jar:/apex/com.android.uwb/javalib/framework-uwb.jar:/apex/com.android.virt/javalib/framework-virtualization.jar:/apex/com.android.wifi/javalib/framework-wifi.jar', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/root/projects/robo/install:/root/projects/robo/src/install', 'ROS_DISTRO': 'lyrical', 'PULSE_SERVER': '127.0.0.1', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ANDROID_DATA': '/data', 'PATH': '/root/projects/robo/.venv/bin:/opt/ros/lyrical/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/data/data/com.termux/files/usr/bin', 'ANDROID_I18N_ROOT': '/apex/com.android.i18n', 'ANDROID_ROOT': '/system', 'VIRTUAL_ENV_PROMPT': '.venv', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.swp=00;90:*.tmp=00;90:*.dpkg-dist=00;90:*.dpkg-old=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:', 'AMENT_PREFIX_PATH': '/root/projects/robo/install/robot_interfaces:/root/projects/robo/src/install/robot_interfaces:/root/projects/robo/src/install/robot_brain:/root/projects/robo/install/robot_brain:/opt/ros/lyrical', 'ANDROID_TZDATA_ROOT': '/apex/com.android.tzdata', 'VIRTUAL_ENV': '/root/projects/robo/.venv', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/root/projects/robo/build/robot_interfaces', 'PYTHONPATH': '/root/projects/robo/src/install/robot_brain/lib/python3.14/site-packages:/root/projects/robo/install/robot_brain/lib/python3.14/site-packages:/opt/ros/lyrical/lib/python3.14/site-packages', 'MOZ_FAKE_NO_SANDBOX': '1', 'ANDROID_ART_ROOT': '/apex/com.android.art', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/root/projects/robo/install/robot_interfaces:/root/projects/robo/src/install/robot_interfaces:/root/projects/robo/src/install/robot_brain:/root/projects/robo/install/robot_brain:/opt/ros/lyrical'}), 'shell': False}
+[2.755134] (-) TimerEvent: {}
+[2.857382] (-) TimerEvent: {}
+[2.959784] (-) TimerEvent: {}
+[3.061208] (-) TimerEvent: {}
+[3.163472] (-) TimerEvent: {}
+[3.266685] (-) TimerEvent: {}
+[3.355786] (robot_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 2.8.7 (/opt/ros/lyrical/share/ament_cmake/cmake)\n'}
+[3.367022] (-) TimerEvent: {}
+[3.468503] (-) TimerEvent: {}
+[3.570525] (-) TimerEvent: {}
+[3.673318] (-) TimerEvent: {}
+[3.775399] (-) TimerEvent: {}
+[3.879123] (-) TimerEvent: {}
+[3.980632] (-) TimerEvent: {}
+[4.082704] (-) TimerEvent: {}
+[4.184601] (-) TimerEvent: {}
+[4.286528] (-) TimerEvent: {}
+[4.388555] (-) TimerEvent: {}
+[4.490847] (-) TimerEvent: {}
+[4.592100] (-) TimerEvent: {}
+[4.693706] (-) TimerEvent: {}
+[4.795804] (-) TimerEvent: {}
+[4.897636] (-) TimerEvent: {}
+[4.999823] (-) TimerEvent: {}
+[5.101685] (-) TimerEvent: {}
+[5.204126] (-) TimerEvent: {}
+[5.306157] (-) TimerEvent: {}
+[5.407640] (-) TimerEvent: {}
+[5.509261] (-) TimerEvent: {}
+[5.611373] (-) TimerEvent: {}
+[5.713665] (-) TimerEvent: {}
+[5.815500] (-) TimerEvent: {}
+[5.917562] (-) TimerEvent: {}
+[6.019719] (-) TimerEvent: {}
+[6.121802] (-) TimerEvent: {}
+[6.223956] (-) TimerEvent: {}
+[6.326159] (-) TimerEvent: {}
+[6.332292] (robot_interfaces) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[6.426420] (-) TimerEvent: {}
+[6.528578] (-) TimerEvent: {}
+[6.631028] (-) TimerEvent: {}
+[6.733513] (-) TimerEvent: {}
+[6.835548] (-) TimerEvent: {}
+[6.903794] (robot_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.20.6 (/opt/ros/lyrical/share/ament_lint_auto/cmake)\n'}
+[6.936010] (-) TimerEvent: {}
+[7.038461] (-) TimerEvent: {}
+[7.140745] (-) TimerEvent: {}
+[7.242225] (-) TimerEvent: {}
+[7.344041] (-) TimerEvent: {}
+[7.445146] (-) TimerEvent: {}
+[7.546644] (-) TimerEvent: {}
+[7.651308] (-) TimerEvent: {}
+[7.753299] (-) TimerEvent: {}
+[7.854926] (-) TimerEvent: {}
+[7.956317] (-) TimerEvent: {}
+[8.058190] (-) TimerEvent: {}
+[8.160210] (-) TimerEvent: {}
+[8.263058] (-) TimerEvent: {}
+[8.366091] (-) TimerEvent: {}
+[8.469007] (-) TimerEvent: {}
+[8.571528] (-) TimerEvent: {}
+[8.674679] (-) TimerEvent: {}
+[8.777358] (-) TimerEvent: {}
+[8.879607] (-) TimerEvent: {}
+[8.981289] (-) TimerEvent: {}
+[9.085437] (-) TimerEvent: {}
+[9.187789] (-) TimerEvent: {}
+[9.289669] (-) TimerEvent: {}
+[9.391135] (-) TimerEvent: {}
+[9.493210] (-) TimerEvent: {}
+[9.595671] (-) TimerEvent: {}
+[9.697502] (-) TimerEvent: {}
+[9.800564] (-) TimerEvent: {}
+[9.902676] (-) TimerEvent: {}
+[10.005023] (-) TimerEvent: {}
+[10.061055] (robot_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[10.105355] (-) TimerEvent: {}
+[10.208081] (-) TimerEvent: {}
+[10.213396] (robot_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[10.308461] (-) TimerEvent: {}
+[10.335556] (robot_interfaces) StdoutLine: {'line': b'-- Configuring done (7.3s)\n'}
+[10.408702] (-) TimerEvent: {}
+[10.510338] (-) TimerEvent: {}
+[10.612433] (-) TimerEvent: {}
+[10.690182] (robot_interfaces) StdoutLine: {'line': b'-- Generating done (0.3s)\n'}
+[10.712815] (-) TimerEvent: {}
+[10.752777] (robot_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /root/projects/robo/build/robot_interfaces\n'}
+[10.785825] (robot_interfaces) CommandEnded: {'returncode': 0}
+[10.790954] (robot_interfaces) JobProgress: {'identifier': 'robot_interfaces', 'progress': 'build'}
+[10.797866] (robot_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/projects/robo/build/robot_interfaces', '--', '-j8', '-l8'], 'cwd': '/root/projects/robo/build/robot_interfaces', 'env': OrderedDict({'DEX2OATBOOTCLASSPATH': '/apex/com.android.art/javalib/core-oj.jar:/apex/com.android.art/javalib/core-libart.jar:/apex/com.android.art/javalib/okhttp.jar:/apex/com.android.art/javalib/bouncycastle.jar:/apex/com.android.art/javalib/apache-xml.jar:/system/framework/framework.jar:/system/framework/framework-graphics.jar:/system/framework/framework-location.jar:/system/framework/ext.jar:/system/framework/telephony-common.jar:/system/framework/voip-common.jar:/system/framework/ims-common.jar:/system/framework/framework-ondeviceintelligence-platform.jar:/system/framework/framework-nfc.jar:/system/framework/oplus-framework.jar:/system/framework/com.android.fmradio.jar:/system/framework/subsystem-framework.jar:/system_ext/framework/mediatek-common.jar:/system_ext/framework/mediatek-framework.jar:/system_ext/framework/mediatek-ims-common.jar:/system_ext/framework/mediatek-ims-base.jar:/apex/com.android.i18n/javalib/core-icu4j.jar', 'USER': 'root', 'EXTERNAL_STORAGE': '/sdcard', 'PROOT_L2S_DIR': '/data/data/com.termux/files/usr/var/lib/proot-distro/containers/ubuntu/rootfs/.l2s', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/lyrical/lib/aarch64-linux-gnu:/opt/ros/lyrical/lib', 'HOME': '/root', 'OLDPWD': '/root/projects/robo/src', 'ROS_PYTHON_VERSION': '3', 'PS1': '(.venv) \\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\u@\\h:\\w\\$', 'LC_CTYPE': 'C.UTF-8', 'BOOTCLASSPATH': '/apex/com.android.art/javalib/core-oj.jar:/apex/com.android.art/javalib/core-libart.jar:/apex/com.android.art/javalib/okhttp.jar:/apex/com.android.art/javalib/bouncycastle.jar:/apex/com.android.art/javalib/apache-xml.jar:/system/framework/framework.jar:/system/framework/framework-graphics.jar:/system/framework/framework-location.jar:/system/framework/ext.jar:/system/framework/telephony-common.jar:/system/framework/voip-common.jar:/system/framework/ims-common.jar:/system/framework/framework-ondeviceintelligence-platform.jar:/system/framework/framework-nfc.jar:/system/framework/oplus-framework.jar:/system/framework/com.android.fmradio.jar:/system/framework/subsystem-framework.jar:/system_ext/framework/mediatek-common.jar:/system_ext/framework/mediatek-framework.jar:/system_ext/framework/mediatek-ims-common.jar:/system_ext/framework/mediatek-ims-base.jar:/apex/com.android.i18n/javalib/core-icu4j.jar:/apex/com.android.adservices/javalib/framework-adservices.jar:/apex/com.android.adservices/javalib/framework-sdksandbox.jar:/apex/com.android.appsearch/javalib/framework-appsearch.jar:/apex/com.android.configinfrastructure/javalib/framework-configinfrastructure.jar:/apex/com.android.conscrypt/javalib/conscrypt.jar:/apex/com.android.crashrecovery/javalib/framework-crashrecovery.jar:/apex/com.android.devicelock/javalib/framework-devicelock.jar:/apex/com.android.healthfitness/javalib/framework-healthfitness.jar:/apex/com.android.ipsec/javalib/android.net.ipsec.ike.jar:/apex/com.android.media/javalib/updatable-media.jar:/apex/com.android.mediaprovider/javalib/framework-mediaprovider.jar:/apex/com.android.mediaprovider/javalib/framework-pdf.jar:/apex/com.android.mediaprovider/javalib/framework-pdf-v.jar:/apex/com.android.mediaprovider/javalib/framework-photopicker.jar:/apex/com.android.ondevicepersonalization/javalib/framework-ondevicepersonalization.jar:/apex/com.android.os.statsd/javalib/framework-statsd.jar:/apex/com.android.permission/javalib/framework-permission.jar:/apex/com.android.permission/javalib/framework-permission-s.jar:/apex/com.android.profiling/javalib/framework-profiling.jar:/apex/com.android.scheduling/javalib/framework-scheduling.jar:/apex/com.android.sdkext/javalib/framework-sdkextensions.jar:/apex/com.android.tethering/javalib/framework-connectivity.jar:/apex/com.android.tethering/javalib/framework-connectivity-b.jar:/apex/com.android.tethering/javalib/framework-connectivity-t.jar:/apex/com.android.tethering/javalib/framework-tethering.jar:/apex/com.android.uwb/javalib/framework-ranging.jar:/apex/com.android.uwb/javalib/framework-uwb.jar:/apex/com.android.virt/javalib/framework-virtualization.jar:/apex/com.android.wifi/javalib/framework-wifi.jar', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/root/projects/robo/install:/root/projects/robo/src/install', 'ROS_DISTRO': 'lyrical', 'PULSE_SERVER': '127.0.0.1', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ANDROID_DATA': '/data', 'PATH': '/root/projects/robo/.venv/bin:/opt/ros/lyrical/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/data/data/com.termux/files/usr/bin', 'ANDROID_I18N_ROOT': '/apex/com.android.i18n', 'ANDROID_ROOT': '/system', 'VIRTUAL_ENV_PROMPT': '.venv', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.swp=00;90:*.tmp=00;90:*.dpkg-dist=00;90:*.dpkg-old=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:', 'AMENT_PREFIX_PATH': '/root/projects/robo/install/robot_interfaces:/root/projects/robo/src/install/robot_interfaces:/root/projects/robo/src/install/robot_brain:/root/projects/robo/install/robot_brain:/opt/ros/lyrical', 'ANDROID_TZDATA_ROOT': '/apex/com.android.tzdata', 'VIRTUAL_ENV': '/root/projects/robo/.venv', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/root/projects/robo/build/robot_interfaces', 'PYTHONPATH': '/root/projects/robo/src/install/robot_brain/lib/python3.14/site-packages:/root/projects/robo/install/robot_brain/lib/python3.14/site-packages:/opt/ros/lyrical/lib/python3.14/site-packages', 'MOZ_FAKE_NO_SANDBOX': '1', 'ANDROID_ART_ROOT': '/apex/com.android.art', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/root/projects/robo/install/robot_interfaces:/root/projects/robo/src/install/robot_interfaces:/root/projects/robo/src/install/robot_brain:/root/projects/robo/install/robot_brain:/opt/ros/lyrical'}), 'shell': False}
+[10.813052] (-) TimerEvent: {}
+[10.916441] (-) TimerEvent: {}
+[11.018432] (-) TimerEvent: {}
+[11.119931] (-) TimerEvent: {}
+[11.221865] (-) TimerEvent: {}
+[11.324133] (-) TimerEvent: {}
+[11.427244] (-) TimerEvent: {}
+[11.528907] (-) TimerEvent: {}
+[11.631418] (-) TimerEvent: {}
+[11.723577] (robot_interfaces) CommandEnded: {'returncode': 0}
+[11.731906] (-) TimerEvent: {}
+[11.738170] (robot_interfaces) JobProgress: {'identifier': 'robot_interfaces', 'progress': 'install'}
+[11.832390] (-) TimerEvent: {}
+[11.917881] (robot_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/root/projects/robo/build/robot_interfaces'], 'cwd': '/root/projects/robo/build/robot_interfaces', 'env': OrderedDict({'DEX2OATBOOTCLASSPATH': '/apex/com.android.art/javalib/core-oj.jar:/apex/com.android.art/javalib/core-libart.jar:/apex/com.android.art/javalib/okhttp.jar:/apex/com.android.art/javalib/bouncycastle.jar:/apex/com.android.art/javalib/apache-xml.jar:/system/framework/framework.jar:/system/framework/framework-graphics.jar:/system/framework/framework-location.jar:/system/framework/ext.jar:/system/framework/telephony-common.jar:/system/framework/voip-common.jar:/system/framework/ims-common.jar:/system/framework/framework-ondeviceintelligence-platform.jar:/system/framework/framework-nfc.jar:/system/framework/oplus-framework.jar:/system/framework/com.android.fmradio.jar:/system/framework/subsystem-framework.jar:/system_ext/framework/mediatek-common.jar:/system_ext/framework/mediatek-framework.jar:/system_ext/framework/mediatek-ims-common.jar:/system_ext/framework/mediatek-ims-base.jar:/apex/com.android.i18n/javalib/core-icu4j.jar', 'USER': 'root', 'EXTERNAL_STORAGE': '/sdcard', 'PROOT_L2S_DIR': '/data/data/com.termux/files/usr/var/lib/proot-distro/containers/ubuntu/rootfs/.l2s', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/lyrical/lib/aarch64-linux-gnu:/opt/ros/lyrical/lib', 'HOME': '/root', 'OLDPWD': '/root/projects/robo/src', 'ROS_PYTHON_VERSION': '3', 'PS1': '(.venv) \\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\u@\\h:\\w\\$', 'LC_CTYPE': 'C.UTF-8', 'BOOTCLASSPATH': '/apex/com.android.art/javalib/core-oj.jar:/apex/com.android.art/javalib/core-libart.jar:/apex/com.android.art/javalib/okhttp.jar:/apex/com.android.art/javalib/bouncycastle.jar:/apex/com.android.art/javalib/apache-xml.jar:/system/framework/framework.jar:/system/framework/framework-graphics.jar:/system/framework/framework-location.jar:/system/framework/ext.jar:/system/framework/telephony-common.jar:/system/framework/voip-common.jar:/system/framework/ims-common.jar:/system/framework/framework-ondeviceintelligence-platform.jar:/system/framework/framework-nfc.jar:/system/framework/oplus-framework.jar:/system/framework/com.android.fmradio.jar:/system/framework/subsystem-framework.jar:/system_ext/framework/mediatek-common.jar:/system_ext/framework/mediatek-framework.jar:/system_ext/framework/mediatek-ims-common.jar:/system_ext/framework/mediatek-ims-base.jar:/apex/com.android.i18n/javalib/core-icu4j.jar:/apex/com.android.adservices/javalib/framework-adservices.jar:/apex/com.android.adservices/javalib/framework-sdksandbox.jar:/apex/com.android.appsearch/javalib/framework-appsearch.jar:/apex/com.android.configinfrastructure/javalib/framework-configinfrastructure.jar:/apex/com.android.conscrypt/javalib/conscrypt.jar:/apex/com.android.crashrecovery/javalib/framework-crashrecovery.jar:/apex/com.android.devicelock/javalib/framework-devicelock.jar:/apex/com.android.healthfitness/javalib/framework-healthfitness.jar:/apex/com.android.ipsec/javalib/android.net.ipsec.ike.jar:/apex/com.android.media/javalib/updatable-media.jar:/apex/com.android.mediaprovider/javalib/framework-mediaprovider.jar:/apex/com.android.mediaprovider/javalib/framework-pdf.jar:/apex/com.android.mediaprovider/javalib/framework-pdf-v.jar:/apex/com.android.mediaprovider/javalib/framework-photopicker.jar:/apex/com.android.ondevicepersonalization/javalib/framework-ondevicepersonalization.jar:/apex/com.android.os.statsd/javalib/framework-statsd.jar:/apex/com.android.permission/javalib/framework-permission.jar:/apex/com.android.permission/javalib/framework-permission-s.jar:/apex/com.android.profiling/javalib/framework-profiling.jar:/apex/com.android.scheduling/javalib/framework-scheduling.jar:/apex/com.android.sdkext/javalib/framework-sdkextensions.jar:/apex/com.android.tethering/javalib/framework-connectivity.jar:/apex/com.android.tethering/javalib/framework-connectivity-b.jar:/apex/com.android.tethering/javalib/framework-connectivity-t.jar:/apex/com.android.tethering/javalib/framework-tethering.jar:/apex/com.android.uwb/javalib/framework-ranging.jar:/apex/com.android.uwb/javalib/framework-uwb.jar:/apex/com.android.virt/javalib/framework-virtualization.jar:/apex/com.android.wifi/javalib/framework-wifi.jar', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/root/projects/robo/install:/root/projects/robo/src/install', 'ROS_DISTRO': 'lyrical', 'PULSE_SERVER': '127.0.0.1', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ANDROID_DATA': '/data', 'PATH': '/root/projects/robo/.venv/bin:/opt/ros/lyrical/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/data/data/com.termux/files/usr/bin', 'ANDROID_I18N_ROOT': '/apex/com.android.i18n', 'ANDROID_ROOT': '/system', 'VIRTUAL_ENV_PROMPT': '.venv', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.swp=00;90:*.tmp=00;90:*.dpkg-dist=00;90:*.dpkg-old=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:', 'AMENT_PREFIX_PATH': '/root/projects/robo/install/robot_interfaces:/root/projects/robo/src/install/robot_interfaces:/root/projects/robo/src/install/robot_brain:/root/projects/robo/install/robot_brain:/opt/ros/lyrical', 'ANDROID_TZDATA_ROOT': '/apex/com.android.tzdata', 'VIRTUAL_ENV': '/root/projects/robo/.venv', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/root/projects/robo/build/robot_interfaces', 'PYTHONPATH': '/root/projects/robo/src/install/robot_brain/lib/python3.14/site-packages:/root/projects/robo/install/robot_brain/lib/python3.14/site-packages:/opt/ros/lyrical/lib/python3.14/site-packages', 'MOZ_FAKE_NO_SANDBOX': '1', 'ANDROID_ART_ROOT': '/apex/com.android.art', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/root/projects/robo/install/robot_interfaces:/root/projects/robo/src/install/robot_interfaces:/root/projects/robo/src/install/robot_brain:/root/projects/robo/install/robot_brain:/opt/ros/lyrical'}), 'shell': False}
+[11.936118] (-) TimerEvent: {}
+[12.043535] (-) TimerEvent: {}
+[12.085490] (robot_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[12.089746] (robot_interfaces) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[12.095407] (robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /root/projects/robo/install/robot_interfaces/share/ament_index/resource_index/package_run_dependencies/robot_interfaces\n'}
+[12.143937] (-) TimerEvent: {}
+[12.245997] (-) TimerEvent: {}
+[12.289750] (robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /root/projects/robo/install/robot_interfaces/share/ament_index/resource_index/parent_prefix_path/robot_interfaces\n'}
+[12.346419] (-) TimerEvent: {}
+[12.449245] (-) TimerEvent: {}
+[12.507101] (robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /root/projects/robo/install/robot_interfaces/share/robot_interfaces/environment/ament_prefix_path.sh\n'}
+[12.551407] (-) TimerEvent: {}
+[12.652859] (-) TimerEvent: {}
+[12.683982] (robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /root/projects/robo/install/robot_interfaces/share/robot_interfaces/environment/ament_prefix_path.dsv\n'}
+[12.753206] (-) TimerEvent: {}
+[12.854791] (-) TimerEvent: {}
+[12.899446] (robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /root/projects/robo/install/robot_interfaces/share/robot_interfaces/environment/path.sh\n'}
+[12.955235] (-) TimerEvent: {}
+[13.056762] (robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /root/projects/robo/install/robot_interfaces/share/robot_interfaces/environment/path.dsv\n'}
+[13.057889] (-) TimerEvent: {}
+[13.159226] (-) TimerEvent: {}
+[13.208863] (robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /root/projects/robo/install/robot_interfaces/share/robot_interfaces/local_setup.bash\n'}
+[13.259526] (-) TimerEvent: {}
+[13.355675] (robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /root/projects/robo/install/robot_interfaces/share/robot_interfaces/local_setup.fish\n'}
+[13.359791] (-) TimerEvent: {}
+[13.462098] (-) TimerEvent: {}
+[13.509726] (robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /root/projects/robo/install/robot_interfaces/share/robot_interfaces/local_setup.sh\n'}
+[13.562301] (-) TimerEvent: {}
+[13.663618] (-) TimerEvent: {}
+[13.726584] (robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /root/projects/robo/install/robot_interfaces/share/robot_interfaces/local_setup.zsh\n'}
+[13.763769] (-) TimerEvent: {}
+[13.864560] (-) TimerEvent: {}
+[13.902618] (robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /root/projects/robo/install/robot_interfaces/share/robot_interfaces/local_setup.dsv\n'}
+[13.964873] (-) TimerEvent: {}
+[14.051632] (robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /root/projects/robo/install/robot_interfaces/share/robot_interfaces/package.dsv\n'}
+[14.065112] (-) TimerEvent: {}
+[14.167022] (-) TimerEvent: {}
+[14.232654] (robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /root/projects/robo/install/robot_interfaces/share/ament_index/resource_index/packages/robot_interfaces\n'}
+[14.267264] (-) TimerEvent: {}
+[14.368539] (-) TimerEvent: {}
+[14.373014] (robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /root/projects/robo/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfacesConfig.cmake\n'}
+[14.468786] (-) TimerEvent: {}
+[14.542200] (robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /root/projects/robo/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfacesConfig-version.cmake\n'}
+[14.569088] (-) TimerEvent: {}
+[14.670545] (-) TimerEvent: {}
+[14.744392] (robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /root/projects/robo/install/robot_interfaces/share/robot_interfaces/package.xml\n'}
+[14.770862] (-) TimerEvent: {}
+[14.872218] (-) TimerEvent: {}
+[14.925702] (robot_interfaces) CommandEnded: {'returncode': 0}
+[14.972461] (-) TimerEvent: {}
+[15.073547] (-) TimerEvent: {}
+[15.176581] (-) TimerEvent: {}
+[15.287029] (-) TimerEvent: {}
+[15.356280] (robot_interfaces) JobEnded: {'identifier': 'robot_interfaces', 'rc': 0}
+[15.387279] (-) TimerEvent: {}
+[15.488593] (-) TimerEvent: {}
+[15.589914] (-) TimerEvent: {}
+[15.692435] (-) TimerEvent: {}
+[15.793962] (-) TimerEvent: {}
+[15.895497] (-) TimerEvent: {}
+[15.997001] (-) TimerEvent: {}
+[16.098588] (-) TimerEvent: {}
+[16.200558] (-) TimerEvent: {}
+[16.302347] (-) TimerEvent: {}
+[16.404329] (-) TimerEvent: {}
+[16.506609] (-) TimerEvent: {}
+[16.608833] (-) TimerEvent: {}
+[16.684382] (robot_brain) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/root/projects/robo/build/robot_brain/build', '--no-deps', 'symlink_data'], 'cwd': '/root/projects/robo/build/robot_brain', 'env': {'DEX2OATBOOTCLASSPATH': '/apex/com.android.art/javalib/core-oj.jar:/apex/com.android.art/javalib/core-libart.jar:/apex/com.android.art/javalib/okhttp.jar:/apex/com.android.art/javalib/bouncycastle.jar:/apex/com.android.art/javalib/apache-xml.jar:/system/framework/framework.jar:/system/framework/framework-graphics.jar:/system/framework/framework-location.jar:/system/framework/ext.jar:/system/framework/telephony-common.jar:/system/framework/voip-common.jar:/system/framework/ims-common.jar:/system/framework/framework-ondeviceintelligence-platform.jar:/system/framework/framework-nfc.jar:/system/framework/oplus-framework.jar:/system/framework/com.android.fmradio.jar:/system/framework/subsystem-framework.jar:/system_ext/framework/mediatek-common.jar:/system_ext/framework/mediatek-framework.jar:/system_ext/framework/mediatek-ims-common.jar:/system_ext/framework/mediatek-ims-base.jar:/apex/com.android.i18n/javalib/core-icu4j.jar', 'USER': 'root', 'EXTERNAL_STORAGE': '/sdcard', 'PROOT_L2S_DIR': '/data/data/com.termux/files/usr/var/lib/proot-distro/containers/ubuntu/rootfs/.l2s', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/lyrical/lib/aarch64-linux-gnu:/opt/ros/lyrical/lib', 'HOME': '/root', 'OLDPWD': '/root/projects/robo/src', 'ROS_PYTHON_VERSION': '3', 'PS1': '(.venv) \\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\u@\\h:\\w\\$', 'LC_CTYPE': 'C.UTF-8', 'BOOTCLASSPATH': '/apex/com.android.art/javalib/core-oj.jar:/apex/com.android.art/javalib/core-libart.jar:/apex/com.android.art/javalib/okhttp.jar:/apex/com.android.art/javalib/bouncycastle.jar:/apex/com.android.art/javalib/apache-xml.jar:/system/framework/framework.jar:/system/framework/framework-graphics.jar:/system/framework/framework-location.jar:/system/framework/ext.jar:/system/framework/telephony-common.jar:/system/framework/voip-common.jar:/system/framework/ims-common.jar:/system/framework/framework-ondeviceintelligence-platform.jar:/system/framework/framework-nfc.jar:/system/framework/oplus-framework.jar:/system/framework/com.android.fmradio.jar:/system/framework/subsystem-framework.jar:/system_ext/framework/mediatek-common.jar:/system_ext/framework/mediatek-framework.jar:/system_ext/framework/mediatek-ims-common.jar:/system_ext/framework/mediatek-ims-base.jar:/apex/com.android.i18n/javalib/core-icu4j.jar:/apex/com.android.adservices/javalib/framework-adservices.jar:/apex/com.android.adservices/javalib/framework-sdksandbox.jar:/apex/com.android.appsearch/javalib/framework-appsearch.jar:/apex/com.android.configinfrastructure/javalib/framework-configinfrastructure.jar:/apex/com.android.conscrypt/javalib/conscrypt.jar:/apex/com.android.crashrecovery/javalib/framework-crashrecovery.jar:/apex/com.android.devicelock/javalib/framework-devicelock.jar:/apex/com.android.healthfitness/javalib/framework-healthfitness.jar:/apex/com.android.ipsec/javalib/android.net.ipsec.ike.jar:/apex/com.android.media/javalib/updatable-media.jar:/apex/com.android.mediaprovider/javalib/framework-mediaprovider.jar:/apex/com.android.mediaprovider/javalib/framework-pdf.jar:/apex/com.android.mediaprovider/javalib/framework-pdf-v.jar:/apex/com.android.mediaprovider/javalib/framework-photopicker.jar:/apex/com.android.ondevicepersonalization/javalib/framework-ondevicepersonalization.jar:/apex/com.android.os.statsd/javalib/framework-statsd.jar:/apex/com.android.permission/javalib/framework-permission.jar:/apex/com.android.permission/javalib/framework-permission-s.jar:/apex/com.android.profiling/javalib/framework-profiling.jar:/apex/com.android.scheduling/javalib/framework-scheduling.jar:/apex/com.android.sdkext/javalib/framework-sdkextensions.jar:/apex/com.android.tethering/javalib/framework-connectivity.jar:/apex/com.android.tethering/javalib/framework-connectivity-b.jar:/apex/com.android.tethering/javalib/framework-connectivity-t.jar:/apex/com.android.tethering/javalib/framework-tethering.jar:/apex/com.android.uwb/javalib/framework-ranging.jar:/apex/com.android.uwb/javalib/framework-uwb.jar:/apex/com.android.virt/javalib/framework-virtualization.jar:/apex/com.android.wifi/javalib/framework-wifi.jar', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/root/projects/robo/install:/root/projects/robo/src/install', 'ROS_DISTRO': 'lyrical', 'PULSE_SERVER': '127.0.0.1', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ANDROID_DATA': '/data', 'PATH': '/root/projects/robo/.venv/bin:/opt/ros/lyrical/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/data/data/com.termux/files/usr/bin', 'ANDROID_I18N_ROOT': '/apex/com.android.i18n', 'ANDROID_ROOT': '/system', 'VIRTUAL_ENV_PROMPT': '.venv', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.swp=00;90:*.tmp=00;90:*.dpkg-dist=00;90:*.dpkg-old=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:', 'AMENT_PREFIX_PATH': '/root/projects/robo/install/robot_interfaces:/root/projects/robo/src/install/robot_interfaces:/root/projects/robo/src/install/robot_brain:/root/projects/robo/install/robot_brain:/opt/ros/lyrical', 'ANDROID_TZDATA_ROOT': '/apex/com.android.tzdata', 'VIRTUAL_ENV': '/root/projects/robo/.venv', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/root/projects/robo/build/robot_brain', 'PYTHONPATH': '/root/projects/robo/build/robot_brain/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/projects/robo/install/robot_brain/lib/python3.14/site-packages:/root/projects/robo/src/install/robot_brain/lib/python3.14/site-packages:/root/projects/robo/install/robot_brain/lib/python3.14/site-packages:/opt/ros/lyrical/lib/python3.14/site-packages', 'MOZ_FAKE_NO_SANDBOX': '1', 'ANDROID_ART_ROOT': '/apex/com.android.art', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/root/projects/robo/install/robot_interfaces:/root/projects/robo/src/install/robot_interfaces'}, 'shell': False}
+[16.717917] (-) TimerEvent: {}
+[16.825359] (-) TimerEvent: {}
+[16.926688] (-) TimerEvent: {}
+[17.027914] (-) TimerEvent: {}
+[17.130249] (-) TimerEvent: {}
+[17.232292] (-) TimerEvent: {}
+[17.333970] (-) TimerEvent: {}
+[17.435268] (-) TimerEvent: {}
+[17.536522] (-) TimerEvent: {}
+[17.637851] (-) TimerEvent: {}
+[17.740120] (-) TimerEvent: {}
+[17.841922] (-) TimerEvent: {}
+[17.943873] (-) TimerEvent: {}
+[18.045149] (-) TimerEvent: {}
+[18.146643] (-) TimerEvent: {}
+[18.248522] (-) TimerEvent: {}
+[18.350271] (-) TimerEvent: {}
+[18.452180] (-) TimerEvent: {}
+[18.554343] (-) TimerEvent: {}
+[18.656506] (-) TimerEvent: {}
+[18.758122] (-) TimerEvent: {}
+[18.859658] (-) TimerEvent: {}
+[18.961534] (-) TimerEvent: {}
+[19.064088] (-) TimerEvent: {}
+[19.166746] (-) TimerEvent: {}
+[19.268067] (-) TimerEvent: {}
+[19.369651] (-) TimerEvent: {}
+[19.472281] (-) TimerEvent: {}
+[19.574319] (-) TimerEvent: {}
+[19.675943] (-) TimerEvent: {}
+[19.777315] (-) TimerEvent: {}
+[19.879231] (-) TimerEvent: {}
+[19.980537] (-) TimerEvent: {}
+[20.082593] (-) TimerEvent: {}
+[20.184540] (-) TimerEvent: {}
+[20.286529] (-) TimerEvent: {}
+[20.387534] (robot_brain) StdoutLine: {'line': b'running develop\n'}
+[20.389560] (-) TimerEvent: {}
+[20.491966] (-) TimerEvent: {}
+[20.593664] (-) TimerEvent: {}
+[20.695569] (-) TimerEvent: {}
+[20.796988] (-) TimerEvent: {}
+[20.898312] (-) TimerEvent: {}
+[20.999817] (-) TimerEvent: {}
+[21.101902] (-) TimerEvent: {}
+[21.203692] (-) TimerEvent: {}
+[21.305797] (-) TimerEvent: {}
+[21.407928] (-) TimerEvent: {}
+[21.509225] (-) TimerEvent: {}
+[21.611282] (-) TimerEvent: {}
+[21.713951] (-) TimerEvent: {}
+[21.815676] (-) TimerEvent: {}
+[21.917087] (-) TimerEvent: {}
+[22.018712] (-) TimerEvent: {}
+[22.120715] (-) TimerEvent: {}
+[22.222273] (-) TimerEvent: {}
+[22.324585] (-) TimerEvent: {}
+[22.426165] (-) TimerEvent: {}
+[22.528144] (-) TimerEvent: {}
+[22.629944] (-) TimerEvent: {}
+[22.732398] (-) TimerEvent: {}
+[22.833776] (-) TimerEvent: {}
+[22.935888] (-) TimerEvent: {}
+[23.037579] (-) TimerEvent: {}
+[23.139134] (-) TimerEvent: {}
+[23.240958] (-) TimerEvent: {}
+[23.342210] (-) TimerEvent: {}
+[23.443621] (-) TimerEvent: {}
+[23.545722] (-) TimerEvent: {}
+[23.581424] (robot_brain) StdoutLine: {'line': b'running egg_info\n'}
+[23.645977] (-) TimerEvent: {}
+[23.740217] (robot_brain) StdoutLine: {'line': b'writing robot_brain.egg-info/PKG-INFO\n'}
+[23.745446] (robot_brain) StdoutLine: {'line': b'writing dependency_links to robot_brain.egg-info/dependency_links.txt\n'}
+[23.748374] (-) TimerEvent: {}
+[23.751606] (robot_brain) StdoutLine: {'line': b'writing entry points to robot_brain.egg-info/entry_points.txt\n'}
+[23.752461] (robot_brain) StdoutLine: {'line': b'writing requirements to robot_brain.egg-info/requires.txt\n'}
+[23.753081] (robot_brain) StdoutLine: {'line': b'writing top-level names to robot_brain.egg-info/top_level.txt\n'}
+[23.848590] (-) TimerEvent: {}
+[23.949862] (-) TimerEvent: {}
+[24.051362] (-) TimerEvent: {}
+[24.151678] (robot_brain) StdoutLine: {'line': b"reading manifest file 'robot_brain.egg-info/SOURCES.txt'\n"}
+[24.153471] (-) TimerEvent: {}
+[24.193322] (robot_brain) StdoutLine: {'line': b"writing manifest file 'robot_brain.egg-info/SOURCES.txt'\n"}
+[24.253810] (-) TimerEvent: {}
+[24.356521] (-) TimerEvent: {}
+[24.371585] (robot_brain) StdoutLine: {'line': b'running build_ext\n'}
+[24.373719] (robot_brain) StdoutLine: {'line': b'Creating /root/projects/robo/install/robot_brain/lib/python3.14/site-packages/robot-brain.egg-link (link to .)\n'}
+[24.381353] (robot_brain) StdoutLine: {'line': b'Installing brain script to /root/projects/robo/install/robot_brain/lib/robot_brain\n'}
+[24.385290] (robot_brain) StdoutLine: {'line': b'Installing ear script to /root/projects/robo/install/robot_brain/lib/robot_brain\n'}
+[24.389256] (robot_brain) StdoutLine: {'line': b'\n'}
+[24.391245] (robot_brain) StdoutLine: {'line': b'Installed /root/projects/robo/build/robot_brain\n'}
+[24.391803] (robot_brain) StdoutLine: {'line': b'running symlink_data\n'}
+[24.456915] (-) TimerEvent: {}
+[24.554442] (robot_brain) CommandEnded: {'returncode': 0}
+[24.568742] (-) TimerEvent: {}
+[24.678828] (-) TimerEvent: {}
+[24.717119] (robot_brain) JobEnded: {'identifier': 'robot_brain', 'rc': 0}
+[24.736934] (-) EventReactorShutdown: {}
