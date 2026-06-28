@@ -1,0 +1,40 @@
+{
+  "package_name": "robot_interfaces",
+  "output_dir": "/root/projects/robo/build/robot_interfaces/rosidl_generator_c/robot_interfaces",
+  "template_dir": "/opt/ros/lyrical/share/rosidl_generator_c/cmake/../resource",
+  "idl_tuples": [
+    "/root/projects/robo/build/robot_interfaces/rosidl_adapter/robot_interfaces:msg/Position.idl",
+    "/root/projects/robo/build/robot_interfaces/rosidl_adapter/robot_interfaces:msg/RobotState.idl"
+  ],
+  "ros_interface_files": [
+    "/root/projects/robo/src/robot_interfaces/msg/Position.msg",
+    "/root/projects/robo/src/robot_interfaces/msg/RobotState.msg"
+  ],
+  "target_dependencies": [
+    "/opt/ros/lyrical/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c",
+    "/opt/ros/lyrical/share/rosidl_generator_c/cmake/../../../lib/python3.14/site-packages/rosidl_generator_c/__init__.py",
+    "/opt/ros/lyrical/share/rosidl_generator_c/cmake/../resource/action__type_support.h.em",
+    "/opt/ros/lyrical/share/rosidl_generator_c/cmake/../resource/action__type_support.c.em",
+    "/opt/ros/lyrical/share/rosidl_generator_c/cmake/../resource/empty__description.c.em",
+    "/opt/ros/lyrical/share/rosidl_generator_c/cmake/../resource/full__description.c.em",
+    "/opt/ros/lyrical/share/rosidl_generator_c/cmake/../resource/idl.h.em",
+    "/opt/ros/lyrical/share/rosidl_generator_c/cmake/../resource/idl__description.c.em",
+    "/opt/ros/lyrical/share/rosidl_generator_c/cmake/../resource/idl__functions.c.em",
+    "/opt/ros/lyrical/share/rosidl_generator_c/cmake/../resource/idl__functions.h.em",
+    "/opt/ros/lyrical/share/rosidl_generator_c/cmake/../resource/idl__struct.h.em",
+    "/opt/ros/lyrical/share/rosidl_generator_c/cmake/../resource/idl__type_support.c.em",
+    "/opt/ros/lyrical/share/rosidl_generator_c/cmake/../resource/idl__type_support.h.em",
+    "/opt/ros/lyrical/share/rosidl_generator_c/cmake/../resource/msg__functions.c.em",
+    "/opt/ros/lyrical/share/rosidl_generator_c/cmake/../resource/msg__functions.h.em",
+    "/opt/ros/lyrical/share/rosidl_generator_c/cmake/../resource/msg__struct.h.em",
+    "/opt/ros/lyrical/share/rosidl_generator_c/cmake/../resource/msg__type_support.h.em",
+    "/opt/ros/lyrical/share/rosidl_generator_c/cmake/../resource/srv__type_support.c.em",
+    "/opt/ros/lyrical/share/rosidl_generator_c/cmake/../resource/srv__type_support.h.em",
+    "/root/projects/robo/build/robot_interfaces/rosidl_adapter/robot_interfaces/msg/Position.idl",
+    "/root/projects/robo/build/robot_interfaces/rosidl_adapter/robot_interfaces/msg/RobotState.idl"
+  ],
+  "type_description_tuples": [
+    "msg/Position.idl:/root/projects/robo/build/robot_interfaces/rosidl_generator_type_description/robot_interfaces/msg/Position.json",
+    "msg/RobotState.idl:/root/projects/robo/build/robot_interfaces/rosidl_generator_type_description/robot_interfaces/msg/RobotState.json"
+  ]
+}

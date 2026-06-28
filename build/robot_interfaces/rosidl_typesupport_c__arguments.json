@@ -1,0 +1,19 @@
+{
+  "package_name": "robot_interfaces",
+  "output_dir": "/root/projects/robo/build/robot_interfaces/rosidl_typesupport_c/robot_interfaces",
+  "template_dir": "/opt/ros/lyrical/share/rosidl_typesupport_c/resource",
+  "idl_tuples": [
+    "/root/projects/robo/build/robot_interfaces/rosidl_adapter/robot_interfaces:msg/Position.idl",
+    "/root/projects/robo/build/robot_interfaces/rosidl_adapter/robot_interfaces:msg/RobotState.idl"
+  ],
+  "target_dependencies": [
+    "/opt/ros/lyrical/lib/rosidl_typesupport_c/rosidl_typesupport_c",
+    "/opt/ros/lyrical/lib/python3.14/site-packages/rosidl_typesupport_c/__init__.py",
+    "/opt/ros/lyrical/share/rosidl_typesupport_c/resource/action__type_support.c.em",
+    "/opt/ros/lyrical/share/rosidl_typesupport_c/resource/idl__type_support.cpp.em",
+    "/opt/ros/lyrical/share/rosidl_typesupport_c/resource/msg__type_support.cpp.em",
+    "/opt/ros/lyrical/share/rosidl_typesupport_c/resource/srv__type_support.cpp.em",
+    "/root/projects/robo/build/robot_interfaces/rosidl_adapter/robot_interfaces/msg/Position.idl",
+    "/root/projects/robo/build/robot_interfaces/rosidl_adapter/robot_interfaces/msg/RobotState.idl"
+  ]
+}

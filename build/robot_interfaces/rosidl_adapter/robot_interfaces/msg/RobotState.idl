@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from robot_interfaces/msg/RobotState.msg
+// generated code does not contain a copyright notice
+
+#include "robot_interfaces/msg/Position.idl"
+
+module robot_interfaces {
+  module msg {
+    struct RobotState {
+      robot_interfaces::msg::Position position;
+
+      float battery;
+    };
+  };
+};

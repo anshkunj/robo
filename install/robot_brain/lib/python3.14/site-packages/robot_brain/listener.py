@@ -1,26 +1,31 @@
 import rclpy
 from rclpy.node import Node
 
-#from robot_interfaces.msg import RobotState
-from std_msgs.msg import String
+from robot_interfaces.msg import RobotState
+# from std_msgs.msg import String
 
-class ListenerNode(Node):
+class Listener(Node):
     def __init__(self):
         super().__init__("ear")
         self.subscription = self.create_subscription(
-            String,
+            RobotState,
             "/brain/status",
             self.message_callback,
             10
         )
     
     def message_callback(self,msg):
-        self.get_logger().info(f"recieved data: {msg.data}")
+        position = msg.position
+        battery = msg.battery
+        x = position.x
+        y = position.y
+        z = position.z
+        print(f"Robot is at ({x},{y},{z}) with battery {battery}%")
         
 
 def main(args=None):
     rclpy.init(args=args)
-    node = ListenerNode()
+    node = Listener()
     
     rclpy.spin(node)
     
