@@ -1,3 +1,0 @@
-[console_scripts]
-brain = robot_brain.brain:main
-ear = robot_brain.listener:main

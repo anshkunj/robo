@@ -1,4 +1,0 @@
-Invoking command in '/root/projects/robo/build/robot_interfaces': CMAKE_PREFIX_PATH=/opt/ros/lyrical /usr/bin/cmake --build /root/projects/robo/build/robot_interfaces -- -j8 -l8
-Invoked command in '/root/projects/robo/build/robot_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/lyrical /usr/bin/cmake --build /root/projects/robo/build/robot_interfaces -- -j8 -l8
-Invoking command in '/root/projects/robo/build/robot_interfaces': CMAKE_PREFIX_PATH=/opt/ros/lyrical /usr/bin/cmake --install /root/projects/robo/build/robot_interfaces
-Invoked command in '/root/projects/robo/build/robot_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/lyrical /usr/bin/cmake --install /root/projects/robo/build/robot_interfaces

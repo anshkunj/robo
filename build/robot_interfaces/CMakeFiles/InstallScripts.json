@@ -1,9 +1,0 @@
-{
-	"InstallScripts" : 
-	[
-		"/root/projects/robo/build/robot_interfaces/cmake_install.cmake",
-		"/root/projects/robo/build/robot_interfaces/robot_interfaces__py/cmake_install.cmake",
-		"/root/projects/robo/build/robot_interfaces/robot_interfaces__rs/cmake_install.cmake"
-	],
-	"Parallel" : false
-}

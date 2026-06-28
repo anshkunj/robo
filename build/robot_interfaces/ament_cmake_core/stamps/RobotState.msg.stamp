@@ -1,2 +1,0 @@
-Position position
-float32 battery
