@@ -1,0 +1,4 @@
+float32 open_length
+---
+bool success
+string message

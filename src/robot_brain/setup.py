@@ -26,7 +26,9 @@ setup(
     entry_points={
         'console_scripts': [
             'brain = robot_brain.brain:main',
-            'ear = robot_brain.listener:main'
+            'ear = robot_brain.listener:main',
+            'planner = robot_brain.planner:main',
+            'gripper_server = robot_brain.gripper_srv:main'
         ],
     },
 )

@@ -8,11 +8,21 @@ endif()
 # Dependencies
 find_package(ament_cmake REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
+find_package(geometry_msgs REQUIRED)
 
 # Generate Messages
 rosidl_generate_interfaces(${PROJECT_NAME}
-  "msg/Position.msg"
   "msg/RobotState.msg"
+  "msg/BatteryState.msg"
+  "msg/Task.msg"
+  "msg/Shelf.msg"
+  "msg/InventoryItem.msg"
+  "msg/DetectedObject.msg"
+  "srv/GetRobotState.srv"
+  "srv/OpenGripper.srv"
+
+  DEPENDENCIES
+      geometry_msgs
 )
 
 if(BUILD_TESTING)
